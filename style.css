@@ -1,0 +1,87 @@
+body{
+  display:flex;
+
+}
+
+.game-container
+{
+  width:500px;
+  height:730px;
+  position: absolute;
+  left:80px;
+}
+
+.border-left
+{
+  width:80px;
+  height:790px;
+  position: absolute;
+  background-color: white;
+  z-index: +2;
+}
+
+.border-right{
+  width:80px;
+  height:790px;
+  position: absolute;
+  background-color: white;
+  z-index: +2;
+  left: 580px;
+}
+
+.border-top{
+width:660px;
+height:50px;
+position:absolute;
+background-color: white;
+z-index: +2;
+top:-50px;
+}
+
+.sky
+{
+background-image: url('https://user-images.githubusercontent.com/18351809/46888871-624a3900-ce7f-11e8-808e-99fd90c8a3f4.png');
+  width:500px;
+  height:580px;
+  position:absolute;
+}
+
+.ground{
+  background-image: url('https://noobtuts.com/content/unity/2d-flappy-bird-game/ground.png');
+  width:500px;
+  height:150px;
+  position: absolute;
+  top: 580px;
+  z-index: +1;
+}
+
+.bird{
+
+  position: absolute;
+  height:45px;
+  width:60px;
+}
+
+.obstacle
+{
+background-color: green;
+  width:60px;
+  height:300px;
+  position:absolute;
+}
+
+.topObstacle
+{
+background-color: green;
+transform: rotate(180deg);
+  width:60px;
+  height:300px;
+  position:absolute;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
